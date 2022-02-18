@@ -1,0 +1,13 @@
+name: nonproduction
+
+on:
+  push:
+    branches:
+      - "feature*"
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure credentials
+    
