@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Configure credentials
-        run: echo hello
+        run: echo hello dude
     
